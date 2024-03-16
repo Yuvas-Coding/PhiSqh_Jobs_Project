@@ -1,0 +1,42 @@
+spring.application.name=PhiSQH_Jobs
+
+
+#----------------------------------------------------------------------------------
+#dbc.driverClassName=oracle.jdbc.driver.OracleDriver
+#jdbc.url=jdbc:oracle:thin:@//10.1.1.86:1521/phis
+#jdbc.username=HQPROD15
+#jdbc.password=HQPROD15
+#jdbc.url=jdbc:oracle:thin:@//10.1.1.103:1521/orcl
+#jdbc.url=jdbc:oracle:thin:@//10.1.1.144:1521/orcl
+#jdbc.url=jdbc:oracle:thin:@//10.1.2.69:1521/orcl
+#jdbc.username=PHISHQ
+#jdbc.password=PHISHQ
+
+spring.datasource.url=jdbc:oracle:thin:@//10.1.2.69:1521/orcl
+spring.datasource.username=PHISHQ
+spring.datasource.password=PHISHQ
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.Oracle11gDialect
+spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=false
+#spring.jpa.properties.hibernate.c3p0.min_size=100
+#spring.jpa.properties.hibernate.c3p0.max_size=1000
+#spring.jpa.properties.hibernate.c3p0.timeout=480000
+#spring.jpa.properties.hibernate.c3p0.max_statements=500
+#spring.jpa.properties.hibernate.c3p0.idle_test_period=60000
+#spring.jpa.properties.hibernate.c3p0.acquire_increment=10
+#
+## C3P0 Configuration
+#spring.datasource.hikari.minimum-idle=10000
+#spring.datasource.hikari.maximum-pool-size=30000
+#
+## Cache and Statistics
+#spring.jpa.properties.hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider
+#spring.jpa.properties.hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider
+#spring.jpa.properties.hibernate.generate_statistics=true
+#spring.jpa.properties.hibernate.current_session_context_class=thread
+
+
+server.port =8081
+
